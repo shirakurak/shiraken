@@ -7,5 +7,10 @@ module Shiraken
         def hello
             puts "Hello, World!"
         end
+
+        desc "github", "display GitHub Account page"
+        def github
+            puts "https://github.com/shirakurak"
+        end
     end
 end
