@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors = ["shirakurak"]
   spec.email = ["surakura@hotmail.co.jp"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "cli tool about me(@shirakurak)"
+  spec.description = "cli tool to show/operate information about me"
+  spec.homepage = "https://github.com/shirakurak/shiraken"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.5.0"
 
@@ -36,4 +36,6 @@ Gem::Specification.new do |spec|
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
+
+  spec.add_dependency "thor"
 end
